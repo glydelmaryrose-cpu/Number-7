@@ -16,7 +16,7 @@ public class Number7
             System.out.print(x + " ");
         
         for (int z = 0; z < arr.length; z++)
-            if (arr[z] < 0)arr[z] = -arr[z];
+            if (arr[z] < 0) arr[z] = -arr[z];
             
         System.out.println("Converted array: ");
         
