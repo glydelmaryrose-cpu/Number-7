@@ -12,7 +12,8 @@ public class Number7
         int [] arr = {-2, 5, -8, 10};
         
         System.out.println("Original array: ");
-        for (int x : arr) System.out.print(x + " ");
+        for (int x : arr) 
+            System.out.print(x + " ");
         
         for (int z = 0; z < arr.length; z++)
             if (arr[z] < 0)arr[z] = -arr[z];
